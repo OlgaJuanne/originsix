@@ -112,6 +112,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.section .subtitle {
+  font-size: var(--subtitle-font-size);
+}
+
 .section header {
   margin-bottom: 4rem;
 }
@@ -544,7 +548,7 @@ footer .social a:hover {
 
   .section header,
   #testimonials {
-    max-width: 32rem;
+    max-width: 48rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -572,7 +576,7 @@ footer .social a:hover {
     -webkit-font-smoothing: antialiased;
   }
 
-  nav .menu ul li a.active {
+  nav .menu ul li a.title.active {
     font-weight: bold;
     -webkit-font-smoothing: auto;
   }
@@ -599,8 +603,9 @@ footer .social a:hover {
   }
 
   #home .text {
-    order: 1;
-    max-width: 4rem;
+    order: 0;
+    max-width: 24rem;
+    text-align: left;
   }
 
   /* about */

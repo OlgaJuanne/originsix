@@ -42,9 +42,9 @@ const swiper = new Swiper('.swiper-container',{
   mousewheel: true,
   keyboard: true,  
   breakpoints: {
-    767: {
+    767: { /* tamanha do tablet */
       slidesPerView: 2,
-    setwrapperSize: true
+      setwrapperSize: true
     } 
   }
 })
