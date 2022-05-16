@@ -387,7 +387,6 @@ nav.show div.icon-close {
 }
 
 #testimonials blockquote {
-  max-width: 32rem;
   padding: 2rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-radius: 0.25rem;
@@ -396,7 +395,6 @@ nav.show div.icon-close {
 #testimonials blockquote p {
   position: relative;
   text-indent: 1.875rem;
-  text-align: justify;
   margin-bottom: 1.5rem;
   color: var(--title-color);
 }
@@ -550,7 +548,7 @@ footer .social a:hover {
 
   .section header,
   #testimonials {
-    max-width: 200rem;
+    max-width: 48rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
